@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ic_backDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:padding="2dp"/>
+
+    <EditText
+        android:id="@+id/storyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Story Name" />
+
+    <EditText
+        android:id="@+id/storyDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Story Description" />
+
+    <Spinner
+        android:id="@+id/storyCategoryDropdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Story Category" />
+
+    <ImageView
+        android:id="@+id/coverImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/selectCoverButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Cover Image"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/createStoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/red_button"
+        android:textColor="@color/white"
+        android:text="Save Story" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361211921865",
+    "project_id": "ebook-fda30",
+    "storage_bucket": "ebook-fda30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361211921865:android:27154b5df2855b182b9418",
+        "android_client_info": {
+          "package_name": "com.example.ebook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_D9JD9RRMaiz9WBUnw0kxSlDB-AplkME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

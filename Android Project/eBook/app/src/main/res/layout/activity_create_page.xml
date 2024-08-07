@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ic_backDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:padding="2dp"/>
+
+    <EditText
+        android:id="@+id/pageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Page Text" />
+
+    <LinearLayout
+        android:id="@+id/choicesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/addChoiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/teal_button"
+        android:textColor="@color/white"
+        android:text="Add Choice" />
+
+    <Button
+        android:id="@+id/createPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/red_button"
+        android:textColor="@color/white"
+        android:text="Create/Update Page" />
+</LinearLayout>
